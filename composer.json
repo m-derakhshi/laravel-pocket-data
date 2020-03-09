@@ -1,0 +1,38 @@
+{
+  "name": "mderakhshi/laravel-pocket-data",
+  "description": "Custom PHP Pocket Data library for the Laravel 6",
+  "version": "dev-master",
+  "keywords": [
+    "mderakhshi",
+    "masoud_derakhshi",
+    "Laravel",
+    "PocketData",
+    "ssr",
+    "multi_api"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "masoud derakhshi",
+      "email": "mderakhshi1992@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "illuminate/support": ">=4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "mderakhshi\\PocketData\\": "src/"
+    },
+    "files": [
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "mderakhshi\\PocketData\\PocketDataServiceProvider"
+      ]
+    }
+  }
+}
